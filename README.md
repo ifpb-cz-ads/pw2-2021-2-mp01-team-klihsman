@@ -7,7 +7,7 @@ Inicialização
 
 1 - Crie um arquivo .env baseado no arquivo .exemplo.env <br>
 2 - Copie todo o código do .exemplo.env e cole no .env <br>
-3 - Atribua uma chave a sua escolha na chave JWT KEY_TOKEN
+3 - Atribua uma chave a sua escolha na chave JWT KEY_TOKEN <br>
 4 - Abra o terminal <br>
 5 - digite o comando npm install ou yarn install <br>
 6 - Digite o comando npm run dev ou yarn run dev <br>
