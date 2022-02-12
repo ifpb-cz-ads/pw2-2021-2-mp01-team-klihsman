@@ -14,3 +14,5 @@ Inicialização
 7 - Abra uma aba do navegador <br>
 8 - digite http://localhost:3333/api-doc/ <br>
 9 - Basta realizar os testes <br>
+
+Observação: Caso seja da sua vontade, crie uma conta na <a href="https://mailtrap.io/" target="_blank">MailTrap</a> e preencha as variáveis de ambiente de acordo com as oferecidas na lib.
