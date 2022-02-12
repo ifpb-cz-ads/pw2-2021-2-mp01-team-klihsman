@@ -1,8 +1,8 @@
 {
     "openapi": "3.0.0",
     "info":{
-        "title": "Contacts",
-        "description":"Esta é uma aplicação de API REST feita com Express.",
+        "title": "Routes",
+        "description":"REST aplication made with Express",
         "version": "1.0.0"
     },
     "basePath":"/",
@@ -13,7 +13,7 @@
                     "in": "query",
                     "name":"page",
                     "type":"integer",
-                    "description": "paginacaum",
+                    "description": "pagination",
                     "required": true
                 }],
                 "responses":{
@@ -43,9 +43,9 @@
                                     }
                                 },
                                 "example":{
-                                    "email":"s2@gmail.com",
-                                    "password":"s2s2s2s2s2s2",
-                                    "name":"s2pw2"
+                                    "email":"user@gmail.com",
+                                    "password":"12345678a",
+                                    "name":"useruser"
                                 }
                             }
                         }
@@ -78,8 +78,8 @@
                                     }
                                 },
                                 "example":{
-                                    "email":"s2@gmail.com",
-                                    "password":"s2s2s2s2s2s2"
+                                    "email":"user@gmail.com",
+                                    "password":"12345678a"
                                 }
                             }
                         }
@@ -90,10 +90,10 @@
                         "description":"ok"
                     },
                     "403":{
-                        "description": "Para fazer login você precisar habilitar sua conta por favor verifique seu e-mail!"
+                        "description": "For login verify your email"
                     },
                     "400":{
-                        "description": "email/senha invalidos"
+                        "description": "Invalid authentication"
                     }
                 }
             }
@@ -103,7 +103,7 @@
                 "parameters":[{
                     "in": "path",
                     "name":"id",
-                    "description": "id do usuario salvo no banco",
+                    "description": "User Id",
                     "required": true,
                     "type": "integer"
                 }],
@@ -119,7 +119,7 @@
                 "parameters":[{
                     "in": "path",
                     "name":"token",
-                    "description": "token de autenticacaum",
+                    "description": "Authentication Token",
                     "required": true,
                     "type": "string"
                 }],
